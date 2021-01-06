@@ -5,3 +5,4 @@
 #   - stable=https://charts.helm.sh/stable
 
 lint-conf: charts/.ci/lint-config.yaml
+target-branch: main
