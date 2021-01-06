@@ -1,0 +1,19 @@
+apiVersion: v1
+entries:
+  secret-replicator:
+  - apiVersion: v1
+    appVersion: 0.2.0
+    created: "2021-01-06T01:50:00.414133099Z"
+    description: A Helm chart to replicate secret across namespaces
+    digest: 06eaf075fb04b2e15e93321a4018bad2114b9654fd3f83f8550af2837733f89b
+    home: https://github.com/kiwigrid/secret-replicator
+    maintainers:
+    - email: rico.pahlisch@kiwigrid.com
+      name: rpahli
+    name: secret-replicator
+    sources:
+    - https://github.com/kiwigrid/secret-replicator
+    urls:
+    - https://github.com/funkypenguin/helm-secret-replicator/releases/download/secret-replicator-0.6.0/secret-replicator-0.6.0.tgz
+    version: 0.6.0
+generated: "2021-01-06T01:50:00.300946749Z"
