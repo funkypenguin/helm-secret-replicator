@@ -1,0 +1,7 @@
+# This file defines the config for "ct" (chart tester) used by the helm linting GitHub workflow
+# Here we define every possible upstream repo our charts use in `requirements.yaml`
+# Example
+# chart-repos:
+#   - stable=https://charts.helm.sh/stable
+
+lint-conf: charts/.ci/lint-config.yaml
