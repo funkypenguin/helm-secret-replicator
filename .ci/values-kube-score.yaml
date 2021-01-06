@@ -1,2 +1,16 @@
 image:
   pullPolicy: Always
+
+resources:
+  limits:
+    cpu: 50m
+    memory: 20Mi
+  requests:
+    cpu: 20m
+    memory: 20Mi  
+
+podSecurityContext:
+  runAsUser: 10001
+
+containerSecurityContext:
+  readOnlyRootFilesystem: true
